@@ -26,30 +26,31 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Login" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/login_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gradient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo_skype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_psswd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_psswd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_psswd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_psswd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_psswd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_26]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ce10160a70782e2b04]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -167,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607445995646</updated>
     </task>
+    <task id="LOCAL-00001" summary="premier commit de test pour login">
+      <created>1608058051751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608058051751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +189,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/Login" />
                       </list>
                     </value>
                   </entry>
@@ -192,6 +201,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="premier commit de test pour login" />
+    <option name="LAST_COMMIT_MESSAGE" value="premier commit de test pour login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -206,6 +219,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="100" y="100" width="1720" height="850" key="AVDManager/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054059898" />
+    <state x="162" y="0" key="DiffContextDialog" timestamp="1608058158989">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="162" y="0" key="DiffContextDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058158989" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1608054327232">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -230,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1608057708479">
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608058172076">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608057708479" />
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058172076" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1608056202371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -246,10 +263,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="730" y="237" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053774642" />
-    <state x="694" y="313" key="git4idea.merge.GitPullDialog" timestamp="1608053794617">
+    <state x="694" y="313" key="git4idea.merge.GitPullDialog" timestamp="1608058589344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="694" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053794617" />
+    <state x="694" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058589344" />
     <state x="760" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608053645244">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
