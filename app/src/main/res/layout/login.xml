@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login_class"
-    android:background="@drawable/gradient">
+    android:background="@drawable/gradient"
+    android:backgroundTint="#F9E4CF"
+    tools:context=".login_class">
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="380dp"
+        android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
         android:hint="  Identifiant"
-        android:drawableLeft="@drawable/ic_action_user"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
         android:textStyle="italic" />
@@ -33,10 +34,10 @@
         android:layout_width="178dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="460dp"
+        android:drawableLeft="@drawable/ic_action_psswd"
         android:ems="10"
         android:hint="  Mot de passe"
-        android:drawableLeft="@drawable/ic_action_psswd"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
         android:textStyle="italic" />
@@ -45,10 +46,10 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="580dp"
-        app:cardBackgroundColor="@color/teal_700"
-        app:cardCornerRadius="25dp"
-        android:elevation="10dp">
+        android:layout_marginTop="560dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#ac8b6a"
+        app:cardCornerRadius="25dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -70,8 +71,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="700dp"
+        android:layout_marginTop="670dp"
         android:text="S'enregistrer ici"
-        android:textColor="#fff" />
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="30dp"
+        android:text="Retour" />
 
 </RelativeLayout>
