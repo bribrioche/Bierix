@@ -10,19 +10,76 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="281dp">
-
-        <Button
-            android:id="@+id/btnPhoto"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:text="Prendre Photo" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="#AC8B6A">
 
         <ImageView
             android:id="@+id/imgAffichePhoto"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="652dp"
             tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#19232F">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#19232F"
+                android:padding="20dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/panier_blanc" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#19232F"
+                android:padding="20dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/search_blanc" />
+
+            <ImageButton
+                android:id="@+id/btnPhoto"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#19232F"
+                android:padding="20dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/scan_blanc" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#19232F"
+                android:padding="20dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/user_blanc" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="#19232F"
+                android:padding="20dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/coeur" />
+        </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
