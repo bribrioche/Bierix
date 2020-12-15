@@ -12,6 +12,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import java.io.File;
@@ -25,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private static final int RETOUR_PRENDRE_PHOTO = 1;
 
     // propriétés
-    private Button btnPhoto;
+    private ImageButton btnPhoto;
+    //private Button btnPhoto;
     private ImageView imgAffichePhoto;
     private String photoPath = null;
 
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private void initActivity(){
         //récupération des objets graphiques
-        btnPhoto = (Button)findViewById(R.id.btnPhoto);
+        btnPhoto = (ImageButton)findViewById(R.id.btnPhoto);
         imgAffichePhoto = (ImageView)findViewById(R.id.imgAffichePhoto);
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
