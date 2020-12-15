@@ -108,6 +108,4 @@ public class MainActivity extends AppCompatActivity {
             imgAffichePhoto.setImageBitmap(image);
         }
     }
-
-
 }
