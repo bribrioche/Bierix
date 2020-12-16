@@ -34,7 +34,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="" />
+
+    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/etoile_blanche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/latrappe_biere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_description_biere.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_description_biere.xml" afterDir="false" />
+    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,6 +249,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608141142487</updated>
     </task>
+
     <task id="LOCAL-00010" summary="test">
       <created>1608144776175</created>
       <option name="number" value="00010" />
@@ -256,6 +265,7 @@
       <updated>1608151740728</updated>
     </task>
     <option name="localTasksCounter" value="12" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,9 +301,9 @@
     <MESSAGE value="modification de la police" />
     <MESSAGE value="version 1.0 inscription" />
     <MESSAGE value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
-    <MESSAGE value="test" />
-    <MESSAGE value="underscores" />
-    <option name="LAST_COMMIT_MESSAGE" value="underscores" />
+
+    <option name="LAST_COMMIT_MESSAGE" value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
+
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -351,10 +361,12 @@
     </state>
     <state x="112" y="49" key="SettingsEditor/0.0.1418.759@0.0.1418.759" timestamp="1608144938673" />
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
+
     <state x="306" y="163" key="Vcs.Push.Dialog.v2" timestamp="1608151767529">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
     <state x="306" y="163" key="Vcs.Push.Dialog.v2/0.0.1418.759@0.0.1418.759" timestamp="1608151767529" />
+
     <state x="415" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608141234373" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1608056202371">
       <screen x="0" y="0" width="1920" height="1050" />
