@@ -11,6 +11,7 @@
         android:theme="@style/Theme.Bierix">
         <activity android:name=".Description_biere"></activity>
         <activity android:name=".creation_account" />
+        <activity android:name=".login_class" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
