@@ -30,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
     //private Button btnPhoto;
     private ImageView imgAffichePhoto;
     private String photoPath = null;
-
     private ImageButton btnUser;
+
+    private Button btnFiche;
+    private ImageView note;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,10 +51,13 @@ public class MainActivity extends AppCompatActivity {
         imgAffichePhoto = (ImageView)findViewById(R.id.imgAffichePhoto);
 
         btnUser = (ImageButton)findViewById(R.id.btnUser);
+        btnFiche = (Button)findViewById(R.id.btnFiche);
+        note = (ImageView) findViewById(R.id.note);
 
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
         createOnClicBtnUser();
+        createOnClicBtnFiche();
 
     }
 
@@ -64,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 prendreUnePhoto();
+
             }
         });
     }
@@ -81,10 +87,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * redirection vers Activity Like
+     * redirection vers Activity Login
      */
     public void openActivityLogin(){
         Intent intent = new Intent(MainActivity.this, login_class.class);
+        startActivity(intent);
+    }
+
+    /**
+     * évenement clic sur bouton btnFiche
+     */
+    private void createOnClicBtnFiche(){
+        btnFiche.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityFiche();
+            }
+        });
+    }
+
+    /**
+     * redirection vers Activity Fiche
+     */
+    public void openActivityFiche(){
+        Intent intent = new Intent(MainActivity.this, Description_biere.class);
         startActivity(intent);
     }
 
@@ -132,6 +158,8 @@ public class MainActivity extends AppCompatActivity {
             Bitmap image = BitmapFactory.decodeFile(photoPath);
             //afficher l'image
             imgAffichePhoto.setImageBitmap(image);
+            btnFiche.setVisibility(View.VISIBLE);
+            note.setVisibility(View.VISIBLE);
         }
     }
 }
