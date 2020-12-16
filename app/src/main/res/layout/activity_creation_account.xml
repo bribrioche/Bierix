@@ -47,7 +47,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Identifiant"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <TextView
@@ -70,7 +70,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="example@gmail.com"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <TextView
@@ -93,7 +93,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Mot de passe"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <TextView
@@ -116,7 +116,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Mot de passe"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <androidx.cardview.widget.CardView

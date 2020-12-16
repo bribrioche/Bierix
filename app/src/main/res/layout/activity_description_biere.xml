@@ -18,14 +18,14 @@
         app:srcCompat="@drawable/etoile_blanche" />
 
     <TextView
-    android:id="@+id/note"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="285dp"
-    android:layout_marginTop="152dp"
-    android:fontFamily="@font/CaviarDreams_Bold"
-    android:text="3,8"
-    android:textColor="#5f4b35" />
+        android:id="@+id/note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/caviar_dreams"
+        android:text="3,8"
+        android:textColor="#5f4b35" />
 
     <TextView
         android:id="@+id/notenbr"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="310dp"
         android:layout_marginTop="160dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+        android:fontFamily="@font/caviar_dreams"
         android:text="(127 votes)"
         android:textColor="#5f4b35"
         android:textSize="8sp" />
@@ -108,7 +108,7 @@ ayout_marginTop="130dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
         android:layout_marginTop="192dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+        android:fontFamily="@font/caviar_dreams"
         android:text="6,5% alcool"
         android:textColor="#5f4b35" />
 
@@ -126,7 +126,7 @@ ayout_marginTop="130dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
         android:layout_marginTop="231dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+        android:fontFamily="@font/caviar_dreams"
         android:text="40 IBU"
         android:textColor="#5f4b35" />
 
@@ -168,7 +168,7 @@ ayout_marginTop="130dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
 
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="110dp"
         android:fontFamily="@font/caviar_dreams_bold"
 
 
