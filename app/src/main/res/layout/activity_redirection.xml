@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:fontFamily="@font/caviar_dreams_bold"
-        android:text="Votre inscription est confirmé!"
+        android:text="Votre inscription est confirmée!"
         android:textColor="#AC8B6A"
         android:textSize="24sp" />
 
