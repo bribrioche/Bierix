@@ -72,7 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+        android:fontFamily="@font/caviar_dreams_bold"
         android:text="La Trappe"
         android:textColor="#AC8B6A"
         android:textSize="30sp" />
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
         android:layout_marginTop="130dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+        android:fontFamily="@font/caviar_dreams_bold"
 
         android:text="Blonde"
         android:textColor="#5f4b35" />

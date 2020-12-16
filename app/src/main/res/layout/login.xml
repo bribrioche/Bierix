@@ -16,7 +16,7 @@
         android:layout_marginTop="380dp"
         android:drawableLeft="@drawable/ic_action_user"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="  Identifiant"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
@@ -38,7 +38,7 @@
         android:layout_marginTop="460dp"
         android:drawableLeft="@drawable/ic_action_psswd"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="  Mot de passe"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:fontFamily="@font/CaviarDreams_Bold"
+                android:fontFamily="@font/caviar_dreams_bold"
                 android:text="Se connecter"
                 android:textColor="#fff"
                 android:textSize="24sp" />
@@ -75,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="670dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:text="S'enregistrer ici"
         android:textColor="#000000" />
 
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="90dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:text="Retour"
         android:textColor="#AC8B6A" />
 
