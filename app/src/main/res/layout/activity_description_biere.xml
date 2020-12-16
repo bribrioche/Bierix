@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:backgroundTint="#F9E4CF"
+    tools:context=".Description_biere">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="120dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#fff" >
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#5f4b35"
+        app:cardCornerRadius="25dp" />
+
+    <TextView
+        android:id="@+id/nom_biere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/CaviarDreams_Bold"
+        android:text="La Dimezell"
+        android:textColor="#AC8B6A"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="45dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/coeur"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

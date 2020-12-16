@@ -14,8 +14,8 @@
         android:layout_width="83dp"
         android:layout_height="68dp"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="300dp"
-        app:srcCompat="@drawable/logo_bierix" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@dawable/logobierix-sansfond" />
 
     <TextView
         android:id="@+id/Inscription_txt"
