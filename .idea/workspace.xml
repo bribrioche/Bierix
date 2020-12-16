@@ -33,17 +33,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_psswd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_psswd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_psswd.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_psswd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_psswd.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_psswd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_psswd.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_psswd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_psswd.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_psswd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_user.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/login_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/login_class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +41,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_26]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -193,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608073776644</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="correction style login v2">
+      <created>1608076272656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608076272656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="premier commit de test pour login" />
     <MESSAGE value="page de login aspect graphique." />
-    <option name="LAST_COMMIT_MESSAGE" value="page de login aspect graphique." />
+    <MESSAGE value="correction style login v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction style login v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -270,10 +268,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608073793905">
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608076289921">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608073793905" />
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608076289921" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1608056202371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
