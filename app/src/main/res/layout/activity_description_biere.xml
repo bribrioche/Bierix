@@ -8,15 +8,113 @@
     android:backgroundTint="#F9E4CF"
     tools:context=".Description_biere">
 
+    <ImageView
+        android:id="@+id/etoilenote"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/etoile_blanche" />
+
+    <TextView
+    android:id="@+id/note"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="285dp"
+    android:layout_marginTop="152dp"
+    android:fontFamily="@font/CaviarDreams_Bold"
+    android:text="3,8"
+    android:textColor="#5f4b35" />
+
+    <TextView
+        android:id="@+id/notenbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/CaviarDreams_Bold"
+        android:text="(127 votes)"
+        android:textColor="#5f4b35"
+        android:textSize="8sp" />
+
     <androidx.cardview.widget.CardView
-        android:layout_width="100dp"
-        android:layout_height="150dp"
+        android:id="@+id/rond_blanc"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="249dp"
+        android:layout_marginTop="109dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="25dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rond_orange"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="110dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#cd6b00"
+        app:cardCornerRadius="25dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadrephoto"
+        android:layout_width="165dp"
+        android:layout_height="112.5dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="120dp"
         android:elevation="10dp"
-        app:cardBackgroundColor="#fff" >
+        app:cardBackgroundColor="#fff">
+
+        <ImageView
+            android:id="@+id/imagebiere_trappe"
+            android:layout_width="160dp"
+            android:layout_height="107dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            app:srcCompat="@drawable/latrappe_biere" />
 
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageplus"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="190dp"
+        app:srcCompat="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/degre_alcool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="192dp"
+        android:fontFamily="@font/CaviarDreams_Bold"
+        android:text="6,5% alcool"
+        android:textColor="#5f4b35" />
+
+    <ImageView
+        android:id="@+id/imageplus2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="230dp"
+        app:srcCompat="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/IBU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="231dp"
+        android:fontFamily="@font/CaviarDreams_Bold"
+        android:text="40 IBU"
+        android:textColor="#5f4b35" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
@@ -25,7 +123,9 @@
         android:layout_marginTop="560dp"
         android:elevation="10dp"
         app:cardBackgroundColor="#5f4b35"
-        app:cardCornerRadius="25dp" />
+        app:cardCornerRadius="25dp" >
+
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/nom_biere"
@@ -34,7 +134,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:fontFamily="@font/CaviarDreams_Bold"
-        android:text="La Dimezell"
+        android:text="La Trappe"
         android:textColor="#AC8B6A"
         android:textSize="30sp" />
 
@@ -45,5 +145,15 @@
         app:srcCompat="@drawable/coeur"
         android:layout_marginLeft="340dp"
         android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/typebiere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/CaviarDreams_Bold"
+        android:text="Blonde"
+        android:textColor="#5f4b35" />
 
 </RelativeLayout>

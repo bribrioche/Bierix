@@ -32,13 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Description_biere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/dimezell.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_bierix-sans-fond.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_description_biere.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/etoile_blanche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/latrappe_biere.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/plus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_creation_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_creation_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_description_biere.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_description_biere.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Inscription" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608133260022</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)">
+      <created>1608141142487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608141142487</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,7 +276,8 @@
     <MESSAGE value="police + version 0.5 de la page inscription" />
     <MESSAGE value="modification de la police" />
     <MESSAGE value="version 1.0 inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.0 inscription" />
+    <MESSAGE value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -322,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608133298896">
+    <state x="415" y="225" key="Vcs.Push.Dialog.v2" timestamp="1608141234373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608133298896" />
+    <state x="415" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608141234373" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1608056202371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
