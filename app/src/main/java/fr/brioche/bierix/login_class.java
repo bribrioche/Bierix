@@ -7,35 +7,79 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class login_class extends AppCompatActivity
 {
 
+    private TextView btnRetour;
+    private TextView lien_page_account;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
+        initActivity();
     }
 
-    //private Button Connexion;
-
-    //@SuppressLint("WrongViewCast")
-   // @Override
-   // protected void onCreate(Bundle savedInstanceState) {
-   //     super.onCreate(savedInstanceState);
-//
-    //    Connexion = (Button) findViewById(R.id.connexion_bttn);
-    //    Connexion.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View view)
-     //       {
-      //          openMainActivity();
-//        });
-   // }
-
-    public void openMainActivity()
+    /**
+     * initialisation de l'activité login
+     */
+    private void initActivity()
     {
-        Intent intent = new Intent(this, MainActivity.class);
+        //récupération des objets graphiques
+        btnRetour = (TextView) findViewById(R.id.btnRetour);
+        lien_page_account = (TextView) findViewById(R.id.lien_page_account);
+
+        //méthode pour gérer l'évèment en question
+        createOnClicBtnRetour();
+        createOnClicBtnlien_page_account();
+    }
+
+    private void createOnClicBtnlien_page_account()
+    {
+        lien_page_account.setOnClickListener(new ImageButton.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                opencreation_account();
+            }
+        });
+    }
+
+    public void opencreation_account()
+    {
+        Intent intent = new Intent(login_class.this, creation_account.class);
+        startActivity(intent);
+    }
+
+
+    /**
+     * évenement clic sur bouton btnRetour
+     */
+    private void createOnClicBtnRetour()
+    {
+        btnRetour.setOnClickListener(new ImageButton.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                openActivityLogin();
+            }
+        });
+    }
+
+    /**
+     * redirection vers MainActivity
+     */
+    public void openActivityLogin()
+    {
+        Intent intent = new Intent(login_class.this, MainActivity.class);
         startActivity(intent);
     }
 

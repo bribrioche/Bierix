@@ -19,7 +19,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="  Identifiant"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <ImageView
@@ -41,7 +41,7 @@
         android:fontFamily="@font/caviar_dreams_italic"
         android:hint="  Mot de passe"
         android:inputType="textPassword"
-        android:textColor="#FFFFFF"
+        android:textColor="#5f4b35"
         android:textStyle="italic" />
 
     <androidx.cardview.widget.CardView
@@ -59,11 +59,12 @@
 
             <TextView
                 android:id="@+id/connexion_bttn"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/caviar_dreams_bold"
                 android:text="Se connecter"
+                android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="24sp" />
         </RelativeLayout>
@@ -75,17 +76,17 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="670dp"
-        android:fontFamily="@font/caviar_dreams"
+        android:fontFamily="@font/caviar_dreams_bold"
         android:text="S'enregistrer ici"
-        android:textColor="#000000" />
+        android:textColor="#ac8b6a" />
 
     <TextView
-        android:id="@+id/retour_txt"
+        android:id="@+id/btnRetour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="90dp"
-        android:fontFamily="@font/caviar_dreams"
+        android:fontFamily="@font/caviar_dreams_bold"
         android:text="Retour"
         android:textColor="#AC8B6A" />
 
