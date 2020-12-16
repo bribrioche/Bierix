@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 
 public class login_class extends AppCompatActivity
@@ -21,7 +20,7 @@ public class login_class extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        Connexion = (Button) findViewById(R.id.Connexion);
+        Connexion = (Button) findViewById(R.id.connexion_bttn);
         Connexion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)

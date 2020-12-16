@@ -32,11 +32,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/creation_account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_creation_account.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/login_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/login_class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_creation_account.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_creation_account.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,6 +87,7 @@
       <recent name="fr.brioche.bierix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\app\src\main\res\font" />
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\app\src\main\res\drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608078580997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="police + version 0.5 de la page inscription">
+      <created>1608130116931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608130116931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,7 +241,8 @@
     <MESSAGE value="page de login aspect graphique." />
     <MESSAGE value="correction style login v2" />
     <MESSAGE value="Implémentation changement d'activité" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implémentation changement d'activité" />
+    <MESSAGE value="police + version 0.5 de la page inscription" />
+    <option name="LAST_COMMIT_MESSAGE" value="police + version 0.5 de la page inscription" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -257,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="162" y="0" key="DiffContextDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058158989" />
-    <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1608129904533">
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size" timestamp="1608130052650">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608129904533" />
+    <state x="640" y="279" key="Downloadable.Font.Dialog.Size/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608130052650" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1608054327232">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -285,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608078595948">
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2" timestamp="1608130145570">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608078595948" />
+    <state x="530" y="100" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608130145570" />
     <state x="776" y="302" key="chooseDestDirectoryDialog" timestamp="1608056202371">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
