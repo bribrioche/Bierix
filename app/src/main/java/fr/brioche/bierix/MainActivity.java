@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imgAffichePhoto;
     private String photoPath = null;
 
+    private ImageButton btnUser;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,8 +47,12 @@ public class MainActivity extends AppCompatActivity {
         //récupération des objets graphiques
         btnPhoto = (ImageButton)findViewById(R.id.btnPhoto);
         imgAffichePhoto = (ImageView)findViewById(R.id.imgAffichePhoto);
+
+        btnUser = (ImageButton)findViewById(R.id.btnUser);
+
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
+        createOnClicBtnUser();
 
     }
 
@@ -60,6 +66,26 @@ public class MainActivity extends AppCompatActivity {
                 prendreUnePhoto();
             }
         });
+    }
+
+    /**
+     * évenement clic sur bouton btnUser
+     */
+    private void createOnClicBtnUser(){
+        btnUser.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityLogin();
+            }
+        });
+    }
+
+    /**
+     * redirection vers Activity Like
+     */
+    public void openActivityLogin(){
+        Intent intent = new Intent(MainActivity.this, login_class.class);
+        startActivity(intent);
     }
 
     /**

@@ -13,6 +13,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_marginLeft="250dp"
+
         android:layout_marginTop="150dp"
         app:srcCompat="@drawable/etoile_blanche" />
 
@@ -55,6 +56,8 @@
         android:layout_height="20dp"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="110dp"
+ayout_marginTop="130dp"
+
         android:elevation="10dp"
         app:cardBackgroundColor="#cd6b00"
         app:cardCornerRadius="25dp">
@@ -62,13 +65,17 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+
         android:id="@+id/cadrephoto"
+
+
         android:layout_width="165dp"
         android:layout_height="112.5dp"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="120dp"
         android:elevation="10dp"
         app:cardBackgroundColor="#fff">
+
 
         <ImageView
             android:id="@+id/imagebiere_trappe"
@@ -78,6 +85,13 @@
             android:layout_marginTop="2.5dp"
             app:srcCompat="@drawable/latrappe_biere" />
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="160dp"
+            android:layout_height="107dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginTop="2.5dp"
+            app:srcCompat="@drawable/latrappe_biere" />
     </androidx.cardview.widget.CardView>
 
     <ImageView
@@ -133,7 +147,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+
+        android:fontFamily="@font/caviar_dreams_bold"
+
         android:text="La Trappe"
         android:textColor="#AC8B6A"
         android:textSize="30sp" />
@@ -151,8 +167,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
-        android:layout_marginTop="110dp"
-        android:fontFamily="@font/CaviarDreams_Bold"
+
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/caviar_dreams_bold"
+
+
         android:text="Blonde"
         android:textColor="#5f4b35" />
 

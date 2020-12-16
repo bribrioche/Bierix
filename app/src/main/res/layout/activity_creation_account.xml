@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +14,7 @@
         android:layout_height="68dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@dawable/logobierix-sansfond" />
+        app:srcCompat="@drawable/logo_bierix_sans_fond" />
 
     <TextView
         android:id="@+id/Inscription_txt"
@@ -23,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:text="Inscription"
         android:textColor="#AC8B6A"
         android:textSize="30sp" />
@@ -33,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:layout_marginTop="195dp"
         android:text="Identifiant"
         android:textColor="#AC8B6A" />
@@ -45,7 +44,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="210dp"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Identifiant"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
@@ -56,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:layout_marginTop="265dp"
         android:text="Email"
         android:textColor="#AC8B6A" />
@@ -68,7 +67,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="280dp"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="example@gmail.com"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
@@ -79,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:layout_marginTop="335dp"
         android:text="Mot de passe"
         android:textColor="#AC8B6A" />
@@ -91,7 +90,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="350dp"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Mot de passe"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
@@ -102,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
-        android:fontFamily="@font/CaviarDreams"
+        android:fontFamily="@font/caviar_dreams"
         android:layout_marginTop="405dp"
         android:text="Retaper votre mot de passe"
         android:textColor="#AC8B6A" />
@@ -114,7 +113,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="420dp"
         android:ems="10"
-        android:fontFamily="@font/CaviarDreams_Italic"
+        android:fontFamily="@font/caviar_dreams_italic"
         android:hint="Mot de passe"
         android:inputType="textPassword"
         android:textColor="#FFFFFF"
@@ -138,7 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:fontFamily="@font/CaviarDreams"
+                android:fontFamily="@font/caviar_dreams"
                 android:text="S'inscrire"
                 android:textColor="#fff"
                 android:textSize="24sp" />
