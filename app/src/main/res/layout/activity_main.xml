@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F9E4CF"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -14,73 +15,129 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-49dp">
 
-        <ImageView
-            android:id="@+id/imgAffichePhoto"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="664dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#19232F">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-            <ImageButton
-                android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="#19232F"
-                android:padding="20dp"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/panier_blanc" />
+                <ImageView
+                    android:id="@+id/imgAffichePhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="664dp"
+                    tools:srcCompat="@tools:sample/avatars" />
 
-            <ImageButton
-                android:id="@+id/imageButton3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="#19232F"
-                android:padding="20dp"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/search_blanc" />
+                <ImageView
+                    android:id="@+id/note"
+                    android:layout_width="182dp"
+                    android:layout_height="195dp"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="149dp"
+                    android:layout_marginEnd="114dp"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/note"
+                    tools:visibility="visible" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/btnPhoto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="#19232F"
-                android:padding="20dp"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/scan_blanc" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/btnUser"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="#19232F"
-                android:padding="20dp"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/user_blanc" />
+                <Button
+                    android:id="@+id/btnFiche"
+                    android:layout_width="170dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="567dp"
+                    android:layout_marginEnd="120dp"
+                    android:backgroundTint="#F9E4CF"
+                    android:text="Voir la fiche"
+                    android:textAlignment="center"
+                    android:visibility="invisible"
+                    tools:visibility="visible" />
 
-            <ImageButton
-                android:id="@+id/imageButton5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:background="#19232F"
-                android:padding="20dp"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/coeur" />
+            </RelativeLayout>
 
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="656dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#19232F">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="#19232F"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/panier_blanc" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="#19232F"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/search_blanc" />
+
+                    <ImageButton
+                        android:id="@+id/btnPhoto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="#19232F"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/scan_blanc" />
+
+                    <ImageButton
+                        android:id="@+id/btnUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="#19232F"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/user_blanc" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:background="#19232F"
+                        android:padding="20dp"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/coeur" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
