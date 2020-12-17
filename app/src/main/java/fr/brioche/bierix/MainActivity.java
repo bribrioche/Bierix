@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imgAffichePhoto;
     private String photoPath = null;
     private ImageButton btnUser;
+    private ImageButton btnPanier;
 
     private Button btnFiche;
     private ImageView note;
@@ -50,12 +51,14 @@ public class MainActivity extends AppCompatActivity {
         btnPhoto = (ImageButton)findViewById(R.id.btnPhoto);
         imgAffichePhoto = (ImageView)findViewById(R.id.imgAffichePhoto);
 
+        btnPanier = (ImageButton)findViewById(R.id.btnPanier);
         btnUser = (ImageButton)findViewById(R.id.btnUser);
         btnFiche = (Button)findViewById(R.id.btnFiche);
         note = (ImageView) findViewById(R.id.note);
 
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
+        createOnClicBtnPanier();
         createOnClicBtnUser();
         createOnClicBtnFiche();
 
@@ -75,6 +78,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * évenement clic sur bouton btnPanier
+     */
+    private void createOnClicBtnPanier(){
+        btnPanier.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityPanier();
+            }
+        });
+    }
+
+    /**
      * évenement clic sur bouton btnUser
      */
     private void createOnClicBtnUser(){
@@ -84,6 +99,15 @@ public class MainActivity extends AppCompatActivity {
                 openActivityLogin();
             }
         });
+    }
+
+
+    /**
+     * redirection vers Activity Panier
+     */
+    public void openActivityPanier(){
+        Intent intent = new Intent(MainActivity.this, Panier.class);
+        startActivity(intent);
     }
 
     /**
