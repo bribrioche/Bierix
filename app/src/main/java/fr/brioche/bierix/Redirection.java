@@ -32,6 +32,6 @@ public class Redirection extends AppCompatActivity {
                     Intent intent = new Intent(Redirection.this, MainActivity.class);
                     startActivity(intent);
                 }
-        }, 3000);
+        }, 2000);
     }
 }

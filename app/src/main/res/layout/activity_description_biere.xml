@@ -56,7 +56,7 @@
         android:layout_height="20dp"
         android:layout_marginLeft="250dp"
         android:layout_marginTop="110dp"
-ayout_marginTop="130dp"
+        ayout_marginTop="130dp"
 
         android:elevation="10dp"
         app:cardBackgroundColor="#cd6b00"
@@ -132,9 +132,20 @@ ayout_marginTop="130dp"
 
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="2dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="560dp"
+        android:layout_marginTop="280dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#5f4b35"
+        app:cardCornerRadius="25dp" >
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
         android:elevation="10dp"
         app:cardBackgroundColor="#5f4b35"
         app:cardCornerRadius="25dp" >
@@ -154,6 +165,17 @@ ayout_marginTop="130dp"
         android:textColor="#AC8B6A"
         android:textSize="30sp" />
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#5f4b35"
+        app:cardCornerRadius="25dp">
+
+    </androidx.cardview.widget.CardView>
+
     <ImageView
         android:id="@+id/heart"
         android:layout_width="45dp"
@@ -167,12 +189,20 @@ ayout_marginTop="130dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="285dp"
-
         android:layout_marginTop="110dp"
         android:fontFamily="@font/caviar_dreams_bold"
-
-
         android:text="Blonde"
         android:textColor="#5f4b35" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La Trappe est une bière trappiste,\nbrassée à l'abbaye Notre-Dame de Koningshoeven\n près de Tilbourg, aux Pays-Bas.\nLa Trappe est la bière trappiste comptant le plus\nde variétés avec 9 types de bières commercialisées."
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/caviar_dreams_bolditalic"
+        android:textAlignment="center"
+        android:textColor="#5f4b35"
+        android:layout_marginTop="300dp"/>
 
 </RelativeLayout>
