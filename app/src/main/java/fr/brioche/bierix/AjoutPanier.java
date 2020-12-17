@@ -12,9 +12,9 @@ public class AjoutPanier extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_redirection);
+        setContentView(R.layout.activity_ajout_panier);
         rediriger();
-        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
+        overridePendingTransition(R.anim.fadeinredir, R.anim.fadeoutredir);
     }
 
     private void rediriger()
@@ -27,6 +27,6 @@ public class AjoutPanier extends AppCompatActivity {
                 Intent intent = new Intent(AjoutPanier.this, Panier.class);
                 startActivity(intent);
             }
-        }, 1500);
+        }, 2000);
     }
 }

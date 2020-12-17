@@ -31,7 +31,7 @@ public class Description_biere extends AppCompatActivity {
 
     private void createOnClicRedir_paiement()
     {
-        paiement_redirection.setOnClickListener(new ImageButton.OnClickListener()
+        paiement_redirection.setOnClickListener(new TextView.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -39,13 +39,12 @@ public class Description_biere extends AppCompatActivity {
                 confirmation();
                 overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
-
         });
     }
 
     public void confirmation()
     {
-        Intent intent = new Intent(Description_biere.this, Panier.class);
+        Intent intent = new Intent(Description_biere.this, AjoutPanier.class);
         startActivity(intent);
     }
 }
