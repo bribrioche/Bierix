@@ -37,7 +37,9 @@ public class Description_biere extends AppCompatActivity {
             public void onClick(View v)
             {
                 confirmation();
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
+
         });
     }
 
