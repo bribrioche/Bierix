@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/panier"
+        android:name="fr.brioche.bierix.Panier"
+        android:label="activity_panier"
+        tools:layout="@layout/activity_panier" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="fr.brioche.bierix.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
