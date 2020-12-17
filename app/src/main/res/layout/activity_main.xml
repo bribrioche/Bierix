@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#AC8B6A"
+        android:background="#F9E4CF"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-49dp">
@@ -39,6 +39,16 @@
                     android:visibility="invisible"
                     app:srcCompat="@drawable/note"
                     tools:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="190dp"
+                    app:srcCompat="@drawable/logo_bierix_sans_fond" />
             </RelativeLayout>
 
             <RelativeLayout
