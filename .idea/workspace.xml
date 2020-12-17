@@ -36,27 +36,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Panier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/quantite_moins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/quantite_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/paiement.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/promo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_panier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="Panier">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loupe_blanche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_blanc_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[606700b8]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -94,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -107,6 +104,9 @@
     <key name="android.template.2027665861">
       <recent name="fr.brioche.bierix" />
     </key>
+    <key name="android.template.645440556">
+      <recent name="fr.brioche.bierix" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\floox\AndroidStudioProjects\Bierix\app\src\main\res\drawable-v24" />
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\app\src\main\res\drawable-v24" />
@@ -114,15 +114,16 @@
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix" />
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\Pull" />
     </key>
-    <key name="android.template.645440556">
-      <recent name="fr.brioche.bierix" />
-    </key>
     <key name="android.template.-815847687">
       <recent name="fr.brioche.bierix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\floox\AndroidStudioProjects\Bierix\app\src\main\res\drawable" />
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\app\src\main\res\font" />
       <recent name="E:\Saillour\Bureau\Cours\Programmation\Bierix\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.-2089088445">
+      <recent name="fr.brioche.bierix" />
     </key>
     <key name="android.template.-1419516751">
       <recent name="fr.brioche.bierix" />
