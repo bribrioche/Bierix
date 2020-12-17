@@ -8,6 +8,54 @@
     android:backgroundTint="#F9E4CF"
     tools:context=".Description_biere">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/trait3"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        app:cardBackgroundColor="#5f4b35"
+        app:cardCornerRadius="25dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="410dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#5f4b35"
+            app:cardCornerRadius="25dp">
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/paiement_redirection"
+        android:layout_width="165dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/paiement"
+        android:fontFamily="@font/caviar_dreams_bold"
+        android:gravity="center_horizontal"
+        android:text="2,70€"
+        android:textAppearance="@style/paiement"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/ajoutpanier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="Ajouter au panier"
+        android:textColor="#FFFFFF" />
+
     <ImageView
         android:id="@+id/etoilenote"
         android:layout_width="20dp"
@@ -131,25 +179,37 @@
         android:textColor="#5f4b35" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/trait"
         android:layout_width="300dp"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="280dp"
         android:elevation="10dp"
         app:cardBackgroundColor="#5f4b35"
-        app:cardCornerRadius="25dp" >
+        app:cardCornerRadius="25dp">
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/trait2"
         android:layout_width="300dp"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="410dp"
         android:elevation="10dp"
         app:cardBackgroundColor="#5f4b35"
-        app:cardCornerRadius="25dp" >
+        app:cardCornerRadius="25dp">
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="410dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#5f4b35"
+            app:cardCornerRadius="25dp">
+
+        </androidx.cardview.widget.CardView>
     </androidx.cardview.widget.CardView>
 
     <TextView
