@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainActivity"
+        android:title="Accueil"
+        android:icon="@drawable/scan_blanc"/>
+    <item
+        android:id="@+id/panier"
+        android:title="Panier"
+        android:icon="@drawable/panier_blanc"/>
+</menu>
