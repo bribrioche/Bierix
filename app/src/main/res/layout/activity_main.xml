@@ -42,13 +42,25 @@
 
                 <ImageView
                     android:id="@+id/logo"
+                    android:layout_width="266dp"
+                    android:layout_height="381dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="118dp"
+                    android:layout_marginEnd="63dp"
+                    android:layout_marginBottom="190dp"
+                    app:srcCompat="@drawable/logo_bierix_sans_fond" />
+
+                <ImageView
+                    android:id="@+id/menu_haut"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginBottom="190dp"
-                    app:srcCompat="@drawable/logo_bierix_sans_fond" />
+                    android:layout_marginTop="-52dp"
+                    app:srcCompat="@drawable/menu_haut" />
+
             </RelativeLayout>
 
             <RelativeLayout
