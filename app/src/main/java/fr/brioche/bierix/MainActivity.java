@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button btnFiche;
     private ImageView note;
+    private ImageView logo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         btnUser = (ImageButton)findViewById(R.id.btnUser);
         btnFiche = (Button)findViewById(R.id.btnFiche);
         note = (ImageView) findViewById(R.id.note);
+        logo = (ImageView) findViewById(R.id.logo);
 
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
@@ -184,6 +186,7 @@ public class MainActivity extends AppCompatActivity {
             imgAffichePhoto.setImageBitmap(image);
             btnFiche.setVisibility(View.VISIBLE);
             note.setVisibility(View.VISIBLE);
+            logo.setVisibility(View.INVISIBLE);
         }
     }
 }
