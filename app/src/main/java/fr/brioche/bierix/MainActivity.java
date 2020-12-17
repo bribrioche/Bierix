@@ -32,9 +32,11 @@ public class MainActivity extends AppCompatActivity {
     private String photoPath = null;
     private ImageButton btnUser;
     private ImageButton btnPanier;
+    private ImageButton btnLike;
 
     private Button btnFiche;
     private ImageView note;
+    private ImageView logo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,13 +54,16 @@ public class MainActivity extends AppCompatActivity {
         imgAffichePhoto = (ImageView)findViewById(R.id.imgAffichePhoto);
 
         btnPanier = (ImageButton)findViewById(R.id.btnPanier);
-        btnUser = (ImageButton)findViewById(R.id.btnUser);
+        btnUser = (ImageButton)findViewById(R.id.btnUser);;
+        btnLike = (ImageButton)findViewById(R.id.btnLike);
         btnFiche = (Button)findViewById(R.id.btnFiche);
         note = (ImageView) findViewById(R.id.note);
+        logo = (ImageView) findViewById(R.id.logo);
 
         //méthode pour gérer les évnements
         createOnClicBtnPhoto();
         createOnClicBtnPanier();
+        createOnClicBtnLike();
         createOnClicBtnUser();
         createOnClicBtnFiche();
 
@@ -117,6 +122,27 @@ public class MainActivity extends AppCompatActivity {
      */
     public void openActivityLogin(){
         Intent intent = new Intent(MainActivity.this, login_class.class);
+        startActivity(intent);
+    }
+
+    /**
+     * évenement clic sur bouton btnLike
+     */
+    private void createOnClicBtnLike(){
+        btnLike.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivityLike();
+            }
+        });
+    }
+
+
+    /**
+     * redirection vers Activity Like
+     */
+    public void openActivityLike(){
+        Intent intent = new Intent(MainActivity.this, ActivityLike.class);
         startActivity(intent);
     }
 
@@ -186,6 +212,7 @@ public class MainActivity extends AppCompatActivity {
             imgAffichePhoto.setImageBitmap(image);
             btnFiche.setVisibility(View.VISIBLE);
             note.setVisibility(View.VISIBLE);
+            logo.setVisibility(View.INVISIBLE);
         }
     }
 }
