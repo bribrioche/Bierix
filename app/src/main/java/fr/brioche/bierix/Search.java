@@ -8,12 +8,17 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.ScrollView;
 
 public class Search extends AppCompatActivity {
 
     private static final String[] BEERS = new String[]{
             "Blonde","Brune","Blanche","IPA","Affligem","Bush Ambrée"
     };
+
+    private ImageButton search_button;
+    private ScrollView list_biere;
 
     private ImageButton btnUser;
     private ImageButton btnPanier;
@@ -39,6 +44,12 @@ public class Search extends AppCompatActivity {
         btnUser = (ImageButton)findViewById(R.id.btnUser);
         btnPhoto = (ImageButton)findViewById(R.id.btnPhoto);
         btnLike = (ImageButton)findViewById(R.id.btnLike);
+        list_biere = (ScrollView)findViewById(R.id.list_biere);
+
+
+        list_biere.setVisibility(View.INVISIBLE);
+
+        search_button = (ImageButton)findViewById(R.id.search_button) ;
 
         //méthode pour gérer les évnements
         createOnClicBtnPanier();
@@ -46,6 +57,19 @@ public class Search extends AppCompatActivity {
         createOnClicBtnUser();
         createOnClicBtnLike();
 
+        createOnClicSearch_button();
+
+    }
+
+    private void createOnClicSearch_button(){
+        search_button.setOnClickListener(new ImageView.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                list_biere.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
     /**

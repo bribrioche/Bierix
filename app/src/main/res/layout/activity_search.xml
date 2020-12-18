@@ -59,7 +59,7 @@
                     android:textColorHint="@color/dark_brown_bierix" />
 
                 <ImageButton
-                    android:id="@+id/button"
+                    android:id="@+id/search_button"
                     android:layout_width="50dp"
                     android:layout_height="40dp"
                     android:background="@drawable/button_search"
@@ -124,6 +124,7 @@
                 android:layout_marginBottom="15dp"/>
 
             <ScrollView
+                android:id="@+id/list_biere"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="visible">
@@ -132,7 +133,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
-
 
 
                     <androidx.cardview.widget.CardView
