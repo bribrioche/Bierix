@@ -81,6 +81,7 @@
                     android:backgroundTint="#F9E4CF"
                     android:text="Voir la fiche"
                     android:textAlignment="center"
+                    android:textColor="@color/dark_brown_bierix"
                     android:visibility="invisible"
                     tools:visibility="visible" />
 

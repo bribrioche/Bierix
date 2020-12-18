@@ -26,7 +26,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="" />
+    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608273878318</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="merge avec noe">
+      <created>1608274335035</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608274335035</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +319,8 @@
     <MESSAGE value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
     <MESSAGE value="reidrections" />
     <MESSAGE value="commit workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit workspace" />
+    <MESSAGE value="merge avec noe" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge avec noe" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -385,10 +397,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="306" y="163" key="Vcs.Push.Dialog.v2" timestamp="1608261892078">
+    <state x="306" y="163" key="Vcs.Push.Dialog.v2" timestamp="1608274355920">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state x="306" y="163" key="Vcs.Push.Dialog.v2/0.0.1418.759@0.0.1418.759" timestamp="1608261892078" />
+    <state x="306" y="163" key="Vcs.Push.Dialog.v2/0.0.1418.759@0.0.1418.759" timestamp="1608274355920" />
     <state x="415" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608141234373" />
     <state x="621" y="237" key="chooseDestDirectoryDialog" timestamp="1608177462813">
       <screen x="0" y="0" width="1536" height="824" />
