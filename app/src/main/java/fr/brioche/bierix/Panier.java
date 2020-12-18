@@ -26,7 +26,7 @@ public class Panier extends AppCompatActivity {
         btnUser = (ImageButton)findViewById(R.id.btnUser);
 
         createOnClicBtnUser();
-
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
     }
 
     private void createOnClicBtnUser(){

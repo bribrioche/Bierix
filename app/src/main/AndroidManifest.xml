@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bierix">
+
+        <activity android:name=".AjoutPanier"></activity>
+
         <activity android:name=".ActivityLike"></activity>
         <activity android:name=".Search"></activity>
         <activity android:name=".Panier" />
