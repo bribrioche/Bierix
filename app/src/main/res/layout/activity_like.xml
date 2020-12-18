@@ -66,7 +66,7 @@
                                             android:layout_marginTop="16dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
                                             android:text="Trappe Blonde"
-                                            android:textColor="#5f4b35"
+                                            android:textColor="#6E6E6E"
                                             android:textSize="18sp"
                                             app:layout_constraintEnd_toEndOf="parent"
                                             app:layout_constraintHorizontal_bias="0.173"
@@ -80,7 +80,7 @@
                                             android:layout_marginTop="44dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
                                             android:text="3,8"
-                                            android:textColor="#5f4b35"
+                                            android:textColor="#6E6E6E"
                                             android:textSize="24sp"
                                             app:layout_constraintEnd_toEndOf="parent"
                                             app:layout_constraintHorizontal_bias="0.279"
@@ -96,7 +96,7 @@
                                             android:text="Voir la fiche"
                                             android:textAlignment="center"
                                             android:textAllCaps="false"
-                                            android:textColor="#5f4b35"
+                                            android:textColor="#6E6E6E"
                                             app:layout_constraintEnd_toEndOf="parent"
                                             app:layout_constraintHorizontal_bias="0.51"
                                             app:layout_constraintStart_toStartOf="parent"
@@ -374,7 +374,7 @@
                                     android:id="@+id/imageView84"
                                     android:layout_width="178dp"
                                     android:layout_height="150dp"
-                                    app:srcCompat="@drawable/latrappe_biere" />
+                                    app:srcCompat="@drawable/archimage" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -387,15 +387,14 @@
 
                                         <TextView
                                             android:id="@+id/textView34"
-                                            android:layout_width="113dp"
-                                            android:layout_height="21dp"
+                                            android:layout_width="203dp"
+                                            android:layout_height="22dp"
                                             android:layout_marginTop="16dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
-                                            android:text="La Dremwell"
+                                            android:text="Archimage Mage Malt"
                                             android:textColor="#5f4b35"
                                             android:textSize="18sp"
                                             app:layout_constraintEnd_toEndOf="parent"
-                                            app:layout_constraintHorizontal_bias="0.173"
                                             app:layout_constraintStart_toStartOf="parent"
                                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -405,7 +404,7 @@
                                             android:layout_height="28dp"
                                             android:layout_marginTop="44dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
-                                            android:text="3,8"
+                                            android:text="4,7"
                                             android:textColor="#5f4b35"
                                             android:textSize="24sp"
                                             app:layout_constraintEnd_toEndOf="parent"
@@ -483,7 +482,7 @@
                                     android:id="@+id/imageView85"
                                     android:layout_width="178dp"
                                     android:layout_height="150dp"
-                                    app:srcCompat="@drawable/latrappe_biere" />
+                                    app:srcCompat="@drawable/cuvee_troll" />
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -496,15 +495,15 @@
 
                                         <TextView
                                             android:id="@+id/textView35"
-                                            android:layout_width="113dp"
-                                            android:layout_height="21dp"
+                                            android:layout_width="190dp"
+                                            android:layout_height="20dp"
                                             android:layout_marginTop="16dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
-                                            android:text="La Dremwell"
+                                            android:text="Cuvée des trolls"
                                             android:textColor="#5f4b35"
                                             android:textSize="18sp"
                                             app:layout_constraintEnd_toEndOf="parent"
-                                            app:layout_constraintHorizontal_bias="0.173"
+                                            app:layout_constraintHorizontal_bias="0.36"
                                             app:layout_constraintStart_toStartOf="parent"
                                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -514,7 +513,7 @@
                                             android:layout_height="28dp"
                                             android:layout_marginTop="44dp"
                                             android:fontFamily="@font/caviar_dreams_bold"
-                                            android:text="3,8"
+                                            android:text="3,5"
                                             android:textColor="#5f4b35"
                                             android:textSize="24sp"
                                             app:layout_constraintEnd_toEndOf="parent"
