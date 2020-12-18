@@ -14,6 +14,8 @@
 
         <activity android:name=".ActivityLike"></activity>
 
+        <activity android:name=".Search"></activity>
+
         <activity android:name=".Panier" />
         <activity android:name=".Redirection" />
         <activity android:name=".Description_biere" />

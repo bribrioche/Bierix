@@ -112,7 +112,7 @@
                         app:srcCompat="@drawable/panier_blanc" />
 
                     <ImageButton
-                        android:id="@+id/imageButton3"
+                        android:id="@+id/btnSearch"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"

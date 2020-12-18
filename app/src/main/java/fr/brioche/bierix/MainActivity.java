@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton btnUser;
     private ImageButton btnPanier;
     private ImageButton btnLike;
+    private ImageButton btnSearch;
 
     private Button btnFiche;
     private ImageView note;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         btnUser = (ImageButton)findViewById(R.id.btnUser);;
         btnLike = (ImageButton)findViewById(R.id.btnLike);
         btnFiche = (Button)findViewById(R.id.btnFiche);
+        btnSearch = (ImageButton)findViewById(R.id.btnSearch);
         note = (ImageView) findViewById(R.id.note);
         logo = (ImageView) findViewById(R.id.logo);
 
@@ -66,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         createOnClicBtnLike();
         createOnClicBtnUser();
         createOnClicBtnFiche();
+        createOnClicBtnSearch();
 
     }
 
@@ -77,6 +80,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 prendreUnePhoto();
+
+            }
+        });
+    }
+
+    /**
+     * évenement clic sur bouton BtnSearch
+     */
+    private void createOnClicBtnSearch() {
+        btnSearch.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitySearch();
 
             }
         });
@@ -122,6 +138,14 @@ public class MainActivity extends AppCompatActivity {
      */
     public void openActivityLogin(){
         Intent intent = new Intent(MainActivity.this, login_class.class);
+        startActivity(intent);
+    }
+
+    /**
+     * redirection vers Activity Login
+     */
+    public void openActivitySearch(){
+        Intent intent = new Intent(MainActivity.this, Search.class);
         startActivity(intent);
     }
 
