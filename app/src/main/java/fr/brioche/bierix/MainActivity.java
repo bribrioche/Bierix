@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivityPanier();
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
         });
     }
@@ -118,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivityLogin();
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
         });
     }

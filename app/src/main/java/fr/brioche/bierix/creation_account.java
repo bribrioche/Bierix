@@ -38,6 +38,7 @@ public class creation_account extends AppCompatActivity
             public void onClick(View v)
             {
                 confirmation();
+                overridePendingTransition(R.anim.fadein, R.anim.fadeout);
             }
         });
     }
@@ -47,5 +48,4 @@ public class creation_account extends AppCompatActivity
         Intent intent = new Intent(creation_account.this, Redirection.class);
         startActivity(intent);
     }
-
 }

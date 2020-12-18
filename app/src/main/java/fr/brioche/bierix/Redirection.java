@@ -20,6 +20,7 @@ public class Redirection extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_redirection);
         rediriger();
+        overridePendingTransition(R.anim.fadein, R.anim.fadeout);
     }
 
     private void rediriger()
@@ -32,6 +33,6 @@ public class Redirection extends AppCompatActivity {
                     Intent intent = new Intent(Redirection.this, MainActivity.class);
                     startActivity(intent);
                 }
-        }, 3000);
+        }, 1500);
     }
 }
