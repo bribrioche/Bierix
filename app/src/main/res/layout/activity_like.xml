@@ -88,7 +88,7 @@
                                             app:layout_constraintTop_toTopOf="parent" />
 
                                         <TextView
-                                            android:id="@+id/textView4"
+                                            android:id="@+id/voirFiche1"
                                             android:layout_width="119dp"
                                             android:layout_height="21dp"
                                             android:layout_marginTop="80dp"
@@ -103,7 +103,7 @@
                                             app:layout_constraintTop_toTopOf="parent" />
 
                                         <TextView
-                                            android:id="@+id/ajout"
+                                            android:id="@+id/ajout1"
                                             android:layout_width="155dp"
                                             android:layout_height="31dp"
                                             android:layout_alignParentLeft="true"
