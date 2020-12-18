@@ -54,7 +54,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lNmbeD171r5gMlLa62sAJQqo92" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -254,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608261867987</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="commit workspace">
+      <created>1608273878318</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608273878318</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +307,8 @@
     <MESSAGE value="version 1.0 inscription" />
     <MESSAGE value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
     <MESSAGE value="reidrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="reidrections" />
+    <MESSAGE value="commit workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit workspace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -388,19 +395,20 @@
     </state>
     <state x="621" y="237" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608177462813" />
     <state x="776" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608056202371" />
-    <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608162714678">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="568" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608274027005">
+      <screen x="0" y="0" width="1418" height="759" />
     </state>
+    <state x="568" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1418.759@0.0.1418.759" timestamp="1608274027005" />
     <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608162714678" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053628413" />
     <state x="730" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608053774642">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="730" y="237" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053774642" />
-    <state x="512" y="227" key="git4idea.merge.GitPullDialog" timestamp="1608260914994">
+    <state x="512" y="227" key="git4idea.merge.GitPullDialog" timestamp="1608273896690">
       <screen x="0" y="0" width="1418" height="759" />
     </state>
-    <state x="512" y="227" key="git4idea.merge.GitPullDialog/0.0.1418.759@0.0.1418.759" timestamp="1608260914994" />
+    <state x="512" y="227" key="git4idea.merge.GitPullDialog/0.0.1418.759@0.0.1418.759" timestamp="1608273896690" />
     <state x="555" y="246" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1608163118581" />
     <state x="694" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058589344" />
     <state x="760" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608053645244">
