@@ -9,11 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Bierix">
-
-        <activity android:name=".AjoutPanier"></activity>
-
-        <activity android:name=".ActivityLike"></activity>
-
+        <activity android:name=".Profil"></activity>
+        <activity android:name=".AjoutPanier" />
+        <activity android:name=".ActivityLike" />
         <activity android:name=".Panier" />
         <activity android:name=".Redirection" />
         <activity android:name=".Description_biere" />

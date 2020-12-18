@@ -8,10 +8,6 @@
     android:backgroundTint="#F9E4CF"
     tools:context=".Description_biere">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
     <androidx.cardview.widget.CardView
         android:id="@+id/trait3"
         android:layout_width="300dp"
