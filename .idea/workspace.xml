@@ -36,24 +36,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="Panier">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loupe_blanche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle_blanc_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="60b298d7-21f7-4a94-8221-7ff1ce47eb78" name="Default Changelist" comment="search_">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/filtre_blanc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/fr/brioche/bierix/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[606700b8]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -75,7 +71,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1lNmbeD171r5gMlLa62sAJQqo92" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -265,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608141142487</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="search_">
+      <created>1608247919205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608247919205</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,7 +313,9 @@
     <MESSAGE value="modification de la police" />
     <MESSAGE value="version 1.0 inscription" />
     <MESSAGE value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout d'une nouvelle page (descrioption biere plus queqlues ameliorations)" />
+    <MESSAGE value="Panier" />
+    <MESSAGE value="search_" />
+    <option name="LAST_COMMIT_MESSAGE" value="search_" />
   </component>
   <component name="WindowStateProjectService">
     <state x="477" y="271" key="#PSD" timestamp="1608053457914">
@@ -376,32 +380,41 @@
     </state>
     <state width="1340" height="149" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608178407742" />
     <state width="929" height="282" key="GridCell.Tab.0.right/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608075619264" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1608248026063">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1608248026063" />
+    <state x="407" y="174" key="MultipleFileMergeDialog" timestamp="1608248026073">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="174" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1608248026073" />
     <state x="152" y="217" key="SettingsEditor" timestamp="1608054009488">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="152" y="217" key="SettingsEditor/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608054009488" />
-    <state x="415" y="225" key="Vcs.Push.Dialog.v2" timestamp="1608141234373">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="332" y="177" key="Vcs.Push.Dialog.v2" timestamp="1608247927685">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="332" y="177" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608247927685" />
     <state x="415" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608141234373" />
     <state x="621" y="237" key="chooseDestDirectoryDialog" timestamp="1608177462813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="621" y="237" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608177462813" />
     <state x="776" y="302" key="chooseDestDirectoryDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608056202371" />
-    <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608162714678">
+    <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608247950454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608162714678" />
+    <state x="615" y="344" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608247950454" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053628413" />
     <state x="730" y="237" key="git4idea.branch.GitSmartOperationDialog" timestamp="1608053774642">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="730" y="237" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608053774642" />
-    <state x="555" y="246" key="git4idea.merge.GitPullDialog" timestamp="1608163118581">
+    <state x="555" y="246" key="git4idea.merge.GitPullDialog" timestamp="1608247977845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="246" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1608163118581" />
+    <state x="555" y="246" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1608247977845" />
     <state x="694" y="313" key="git4idea.merge.GitPullDialog/0.0.1920.1050/-1366.95.1366.738@0.0.1920.1050" timestamp="1608058589344" />
     <state x="760" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608053645244">
       <screen x="0" y="0" width="1920" height="1050" />
