@@ -16,6 +16,7 @@ public class ActivityLike extends AppCompatActivity {
     private ImageButton btnUser;
     private ImageButton btnPanier;
     private ImageButton btnPhoto;
+    private ImageButton btnSearch;
     private TextView voirFiche1;
     private TextView ajout1;
 
@@ -37,6 +38,7 @@ public class ActivityLike extends AppCompatActivity {
         btnPanier = (ImageButton)findViewById(R.id.btnPanier);
         btnUser = (ImageButton)findViewById(R.id.btnUser);
         btnPhoto = (ImageButton)findViewById(R.id.btnPhoto);
+        btnSearch = (ImageButton)findViewById(R.id.btnSearch);
 
         voirFiche1 = (TextView)findViewById(R.id.voirFiche1);
         ajout1 = (TextView)findViewById(R.id.ajout1);
@@ -45,6 +47,7 @@ public class ActivityLike extends AppCompatActivity {
         createOnClicBtnPanier();
         createOnClicBtnPhoto();
         createOnClicBtnUser();
+        createOnClicBtnSearch();
         createOnClicVoirFiche1();
         createOnClicAjout1();
 
@@ -154,6 +157,27 @@ public class ActivityLike extends AppCompatActivity {
      */
     public void openActivityAjout1(){
         Intent intent = new Intent(this, AjoutPanier.class);
+        startActivity(intent);
+    }
+
+    /**
+     * évenement clic sur bouton btnSearch
+     */
+    private void createOnClicBtnSearch(){
+        btnSearch.setOnClickListener(new ImageButton.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivitSearch();
+            }
+        });
+    }
+
+
+    /**
+     * redirection vers Activity Search
+     */
+    public void openActivitSearch(){
+        Intent intent = new Intent(this, Search.class);
         startActivity(intent);
     }
 
